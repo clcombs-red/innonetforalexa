@@ -1,0 +1,461 @@
+{
+  "templates": [
+    "@sys.any:text into @sys.language:lang-to ",
+    "how about @sys.any:text to @sys.language:lang-to ",
+    "and @sys.any:text to @sys.language:lang-to ",
+    "how about @sys.any:text in @sys.language:lang-to ",
+    "how about @sys.language:lang-to ",
+    "now to @sys.language:lang-to ",
+    "and to @sys.language:lang-to now",
+    "and now into @sys.language:lang-to ",
+    "@sys.any:text into @sys.language:lang-to ",
+    "and in @sys.language:lang-to ",
+    "now into @sys.language:lang-to ",
+    "@sys.language:lang-to ",
+    "now @sys.any:text in @sys.language:lang-to ",
+    "and @sys.any:text in @sys.language:lang-to ",
+    "into @sys.language:lang-to ",
+    "and into @sys.language:lang-to ",
+    "how about @sys.language:lang-to ",
+    "in @sys.language:lang-to too",
+    "into @sys.language:lang-to as well"
+  ],
+  "userSays": [
+    {
+      "id": "16da8b6a-7d67-4a27-bcf8-dffaa1ea15b3",
+      "data": [
+        {
+          "text": "hello",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " into "
+        },
+        {
+          "text": "Russian",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bf1ebb8b-5c58-4823-8787-83bbe48d278a",
+      "data": [
+        {
+          "text": "how about "
+        },
+        {
+          "text": "ciao",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "French",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e9b34d9d-ddbb-4907-80a4-cfc7441ff79a",
+      "data": [
+        {
+          "text": "and "
+        },
+        {
+          "text": "nice",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Spanish",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "41c9242c-e943-41d6-a406-1514bd1b9962",
+      "data": [
+        {
+          "text": "how about "
+        },
+        {
+          "text": "hello",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "French",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0f6f0c0b-1632-4c4d-bbf0-ae0317ead34f",
+      "data": [
+        {
+          "text": "how about "
+        },
+        {
+          "text": "French",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4481ba76-fb31-4827-8b32-a31f2eb6d1b5",
+      "data": [
+        {
+          "text": "now",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Russian",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9c53b23-2f1e-4a06-922c-7802335ebe00",
+      "data": [
+        {
+          "text": "and to "
+        },
+        {
+          "text": "Spanish",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "now",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c3285ad-106e-415c-a1fc-e47680024a8d",
+      "data": [
+        {
+          "text": "and "
+        },
+        {
+          "text": "now",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " into "
+        },
+        {
+          "text": "Italian",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "46ee2af8-1388-43e8-bd67-900c99289014",
+      "data": [
+        {
+          "text": "hello",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " into "
+        },
+        {
+          "text": "Spanish",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3e5bf43c-0304-43fc-bd9a-8386912edcc1",
+      "data": [
+        {
+          "text": "and in "
+        },
+        {
+          "text": "French",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8299f2e5-ad65-4094-9627-5e4f26d5c2e4",
+      "data": [
+        {
+          "text": "now into "
+        },
+        {
+          "text": "German",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "de847ccb-7883-4bc2-a2a0-af91a42340d7",
+      "data": [
+        {
+          "text": "Spanish",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "599c0f53-ec2e-40e0-9e2e-c04bf2c79964",
+      "data": [
+        {
+          "text": "now",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "hello",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "French",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4722b3f2-cbf4-40b6-bb12-389cda6d09e3",
+      "data": [
+        {
+          "text": "and "
+        },
+        {
+          "text": "how are you",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Spanish",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d7d2f09-d2cb-4594-90aa-d4436a9b73fb",
+      "data": [
+        {
+          "text": "into "
+        },
+        {
+          "text": "Russian",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4e14c448-9c8f-4a59-9062-41f31db76c56",
+      "data": [
+        {
+          "text": "and into "
+        },
+        {
+          "text": "Italian",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "23b462cd-b78f-4771-8f2f-be858c83a71b",
+      "data": [
+        {
+          "text": "how about "
+        },
+        {
+          "text": "German",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3aab1ca2-54fb-442c-8a18-d305fca32ba9",
+      "data": [
+        {
+          "text": "in "
+        },
+        {
+          "text": "French",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": true
+        },
+        {
+          "text": " too"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "54463f70-f967-485c-b7c3-fa6fb4ac7523",
+      "data": [
+        {
+          "text": "into "
+        },
+        {
+          "text": "Japanese",
+          "alias": "lang-to",
+          "meta": "@sys.language",
+          "userDefined": true
+        },
+        {
+          "text": " as well"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ed0338b0-d37d-4bfb-8cf0-fda2a388c488",
+  "name": "translate.text - context:translate-text - comment:to language",
+  "auto": true,
+  "contexts": [
+    "translate-text"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "translate.text",
+      "affectedContexts": [
+        {
+          "name": "translate-text",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.language",
+          "name": "lang-to",
+          "value": "$lang-to",
+          "prompts": []
+        },
+        {
+          "dataType": "@sys.any",
+          "name": "text",
+          "value": "$text",
+          "prompts": [],
+          "defaultValue": "",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

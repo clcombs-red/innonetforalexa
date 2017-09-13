@@ -1,0 +1,205 @@
+{
+  "templates": [
+    "now @sys.any:text ",
+    "@sys.any:text ",
+    "@sys.any:text ",
+    "now translation @sys.any:text ",
+    "now translate @sys.any:text ",
+    "and @sys.any:text ",
+    "@sys.any:text ",
+    "and @sys.any:text ",
+    "now @sys.any:text ",
+    "how to say @sys.any:text "
+  ],
+  "userSays": [
+    {
+      "id": "d0c32b0f-cc1c-470b-8dcc-9e59073b5871",
+      "data": [
+        {
+          "text": "now "
+        },
+        {
+          "text": "breakfast",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "61b45c22-5bce-48ac-9742-5e2e1aaf29a4",
+      "data": [
+        {
+          "text": "hello",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "634d4260-02d8-43ef-a040-4d8798c90007",
+      "data": [
+        {
+          "text": "je t'aime",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dcb79259-a4d8-4ae5-b23d-2feae597e562",
+      "data": [
+        {
+          "text": "now translation "
+        },
+        {
+          "text": "how is life",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9474791a-3da3-4b3d-9a5f-37c43d2aa630",
+      "data": [
+        {
+          "text": "now translate "
+        },
+        {
+          "text": "how are you",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3f8fcad0-6956-4ebb-8df2-802756d27a56",
+      "data": [
+        {
+          "text": "and "
+        },
+        {
+          "text": "bonjour",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "11532820-ce14-4f88-988f-e6b2eaad7b6d",
+      "data": [
+        {
+          "text": "I love you",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a2f35012-40f8-4389-b037-9fd67b030811",
+      "data": [
+        {
+          "text": "and "
+        },
+        {
+          "text": "I love you",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3370e762-9e8e-46fd-9ff4-96f2071dca86",
+      "data": [
+        {
+          "text": "now "
+        },
+        {
+          "text": "what's up",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7fbf9ff2-ba11-43f7-884f-a6e962803918",
+      "data": [
+        {
+          "text": "how to say "
+        },
+        {
+          "text": "call me tomorrow",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "48369204-e7cf-4ed1-801c-31d69ce259a4",
+  "name": "translate.text - context:translate-text - comment:text",
+  "auto": true,
+  "contexts": [
+    "translate-text"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "translate.text",
+      "affectedContexts": [
+        {
+          "name": "translate-text",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.any",
+          "name": "text",
+          "value": "$text",
+          "prompts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,185 @@
+{
+  "templates": [
+    "remember this video",
+    "it's my favourite",
+    "add this video to favorites",
+    "add it to my favourites",
+    "could you mark it as favourite",
+    "favourite this song",
+    "put this movie into my favourites",
+    "fave this movie",
+    "add to faves",
+    "I love this video"
+  ],
+  "userSays": [
+    {
+      "id": "0d86d68e-6d61-4863-a86b-7428a03a47ad",
+      "data": [
+        {
+          "text": "remember this video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "43bf2b34-debf-42dd-a141-6f8c351391f3",
+      "data": [
+        {
+          "text": "it's my favourite"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3aa3c3b5-8f5a-4afe-9810-a79782bf35b7",
+      "data": [
+        {
+          "text": "add this video to "
+        },
+        {
+          "text": "favorites",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b04d7c58-9918-4ee3-9b55-a19c40b142a7",
+      "data": [
+        {
+          "text": "add it to "
+        },
+        {
+          "text": "my favourites",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "613e7f04-38c5-44fa-9c7b-8f72e0b874dd",
+      "data": [
+        {
+          "text": "could you mark it as favourite"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d57ea483-2892-4508-89a2-2ec9c04481e6",
+      "data": [
+        {
+          "text": "favourite",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " this song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "57bb233d-4dc7-4a49-8bd4-d521128bfc31",
+      "data": [
+        {
+          "text": "put this movie into my favourites"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8569ef01-2747-4b27-9e8e-776d41069a6d",
+      "data": [
+        {
+          "text": "fave",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " this movie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f04e681-f3f1-41d1-a535-e6dcb840d20a",
+      "data": [
+        {
+          "text": "add to "
+        },
+        {
+          "text": "faves",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef305b16-9420-46da-a2d2-d538c58615e8",
+      "data": [
+        {
+          "text": "I",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "love",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " this video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "61fecf6c-1f4c-454e-9a9d-244c20a66e1a",
+  "name": "video_player_control.add_favorite",
+  "auto": true,
+  "contexts": [
+    "video-player-control"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "video_player_control.add_favorite",
+      "affectedContexts": [
+        {
+          "name": "video-player-control",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

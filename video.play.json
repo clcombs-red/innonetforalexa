@@ -1,0 +1,2501 @@
+{
+  "templates": [
+    "play @person:person video",
+    "I want to watch a movie",
+    "show me @sys.any:video ",
+    "show me @person:person videos on @video-service:service ",
+    "I want to watch a @person:person movie",
+    "play a video @sys.any:video ",
+    "play a video from @video-service:service ",
+    "I want to watch @song:song ",
+    "play @sys.any:video ",
+    "play @movie:movie ",
+    "play video",
+    "play some @movie-genre:movie-genre films",
+    "play @person:person video",
+    "play video by @person:person ",
+    "play video @song:song ",
+    "start playing video @song:song ",
+    "I'd like to watch @song:song ",
+    "let's watch @song:song ",
+    "play video clip by @person:person on @video-service:service ",
+    "play video @movie:movie ",
+    "play video @sys.any:video ",
+    "play video @sys.any:video ",
+    "play the first video on @video-service:service ",
+    "play the @movie-genre:movie-genre video",
+    "my phone video",
+    "@sys.any:video video",
+    "I want to watch @sys.any:video video",
+    "@movie-genre:movie-genre video",
+    "@trailer:trailer video",
+    "show video of @person:person 's @song:song ",
+    "play music video for @song:song ",
+    "play @person:person video",
+    "I want to watch a @person:person movie",
+    "do you have some @person:person videos",
+    "show me @person:person videos on @video-service:service ",
+    "show @trailer:trailer for @movie:movie ",
+    "play the @trailer:trailer for @movie:movie ",
+    "play @sys.music-genre:music-genre video",
+    "can you play a movie",
+    "play @movie-genre:movie-genre movie",
+    "play @movie:movie  @trailer:trailer ",
+    "play videos on @video-service:service ",
+    "I want to watch a film directed by @person:person ",
+    "can you play @person:person  @sys.music-genre:music-genre video for me",
+    "@sys.language:language movies",
+    "play videos from year @sys.number:year ",
+    "I want to watch @person:person 's videos",
+    "play videos about @movie-genre:movie-genre ",
+    "@person:person video",
+    "open @sys.any:video video on @video-service:service ",
+    "open @person:person video",
+    "play some video",
+    "play @sys.any:video video",
+    "play @movie:movie movie",
+    "play a movie starring @person:person ",
+    "play @movie:movie with @person:person ",
+    "I want to watch @movie:movie ",
+    "watch @movie:movie movie",
+    "let's watch @movie:movie movie",
+    "let's watch @movie:movie ",
+    "watch @movie:movie ",
+    "video",
+    "open video",
+    "videos of @person:person ",
+    "can you show me videos",
+    "show me video",
+    "play me a video",
+    "can you show me a video",
+    "can you show me some videos",
+    "play @person:person video",
+    "@sys.any:video videos",
+    "play some videos",
+    "I want to watch a video",
+    "can you play a video",
+    "@sys.any:video videos",
+    "can I watch a video",
+    "show me @sys.any:video videos",
+    "show some @movie-genre:movie-genre video",
+    "@sys.any:video videos",
+    "show me videos of @person:person ",
+    "play @movie:movie videos",
+    "videos of @sys.any:video ",
+    "watch video",
+    "play video songs",
+    "can you show me @sys.any:video videos please",
+    "can you show me videos of @sys.any:video ",
+    "@sys.any:video videos",
+    "@video-service:service video @person:person ",
+    "can you play a @video-service:service video for me",
+    "watch @sys.any:video video",
+    "videos of @sys.any:video ",
+    "videos from @sys.any:video ",
+    "video player",
+    "video play",
+    "show me some videos of @sys.any:video ",
+    "show me a video of @sys.any:video ",
+    "play @video-service:service videos @sys.any:video ",
+    "play videos about @sys.any:video on @video-service:service ",
+    "show me video of @sys.any:video ",
+    "show me videos about @sys.any:video ",
+    "show me videos of @sys.any:video ",
+    "I want to play the video",
+    "I want to watch some videos",
+    "I would like to watch a video",
+    "@person:person videos",
+    "can you play some videos",
+    "can you show me the video",
+    "can you show me videos of @person:person "
+  ],
+  "userSays": [
+    {
+      "id": "7a7b2504-5670-44ca-8352-c4bbff81f2b9",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "Red Hot Chili Peppers",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        },
+        {
+          "text": " video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "db84d4db-67d1-4cb9-96d7-d9c604a40683",
+      "data": [
+        {
+          "text": "I",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " want "
+        },
+        {
+          "text": "to",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " watch a "
+        },
+        {
+          "text": "movie",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd27fd7b-c06f-41ca-8cc5-77ac6096300f",
+      "data": [
+        {
+          "text": "show me "
+        },
+        {
+          "text": "the first rap video ever made",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9e07bc1-4388-40d6-a82f-865b5d05fb9d",
+      "data": [
+        {
+          "text": "show me",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Nirvana",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "videos on",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Youtube",
+          "alias": "service",
+          "meta": "@video-service",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e540b549-1f46-48bf-99f1-cc7d55561746",
+      "data": [
+        {
+          "text": "I",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " want "
+        },
+        {
+          "text": "to",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " watch a "
+        },
+        {
+          "text": "Tarantino",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "movie",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5aacce80-22a0-425e-8873-b5d998436586",
+      "data": [
+        {
+          "text": "play",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "cutie pie",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ecf173f3-4a86-4cf4-a940-28d14ae3e213",
+      "data": [
+        {
+          "text": "play",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Youtube",
+          "alias": "service",
+          "meta": "@video-service",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2ff8e2eb-77c8-47f3-92b6-377e6d8a43ba",
+      "data": [
+        {
+          "text": "I",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " want "
+        },
+        {
+          "text": "to",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " watch "
+        },
+        {
+          "text": "Wannabe",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "256a1f27-fe69-4164-b919-291cb39b4ffa",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "Disney cartoons",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7bbf7e68-b79e-4238-8681-1dc9d55ea4a2",
+      "data": [
+        {
+          "text": "play",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Lilo & Stitch",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71f05548-10b3-4934-8ccc-60c260f0aae3",
+      "data": [
+        {
+          "text": "play video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "023a5ebc-c320-4023-af93-9b8423a84ea8",
+      "data": [
+        {
+          "text": "play",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " some "
+        },
+        {
+          "text": "horror",
+          "alias": "movie-genre",
+          "meta": "@movie-genre",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "films",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "876e143d-303b-4026-bff3-faa9c1ad3a24",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "Madonna",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        },
+        {
+          "text": " video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "573cb72a-5b6d-48c6-936c-35a995636731",
+      "data": [
+        {
+          "text": "play",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "U2",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2d44678a-6105-4e04-9242-a1b608a6077a",
+      "data": [
+        {
+          "text": "play",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Wannabe",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2bda60a4-1600-40e1-9084-80fc2132b183",
+      "data": [
+        {
+          "text": "start",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " playing "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Wannabe",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da7553c5-013b-4c06-ab3b-485bc142fdc1",
+      "data": [
+        {
+          "text": "I",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "'"
+        },
+        {
+          "text": "d",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "like",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "to",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " watch "
+        },
+        {
+          "text": "Paint It Black",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "04322f02-44da-49c7-8608-95f381606e45",
+      "data": [
+        {
+          "text": "let'"
+        },
+        {
+          "text": "s",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " watch "
+        },
+        {
+          "text": "Paint It Black",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4aee6215-c040-4d92-9bc0-ef32c27c44d0",
+      "data": [
+        {
+          "text": "play",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "clip",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "Madonna",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Vimeo",
+          "alias": "service",
+          "meta": "@video-service",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f9358f94-7e99-431d-ad13-f3146b1b5eb2",
+      "data": [
+        {
+          "text": "play video "
+        },
+        {
+          "text": "The Walking Dead episode 5",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 15
+    },
+    {
+      "id": "797fbc54-97ea-449c-8ec1-1e6e1e324dbe",
+      "data": [
+        {
+          "text": "play video "
+        },
+        {
+          "text": "America's Funniest Home Videos",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 15
+    },
+    {
+      "id": "95e46a2c-d3fb-4511-bc62-6ed8f7c66072",
+      "data": [
+        {
+          "text": "play video "
+        },
+        {
+          "text": "wow",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "555b7311-8005-4c52-a622-fb5cbdb02801",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "the first",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " video on "
+        },
+        {
+          "text": "YouTube",
+          "alias": "service",
+          "meta": "@video-service",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f9753e10-eef4-450b-9871-d84d3d9d1db8",
+      "data": [
+        {
+          "text": "play the "
+        },
+        {
+          "text": "beach",
+          "alias": "movie-genre",
+          "meta": "@movie-genre",
+          "userDefined": true
+        },
+        {
+          "text": " video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f1e861b3-10d8-4351-bd53-3c06d4a41529",
+      "data": [
+        {
+          "text": "my phone video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9c2526e2-c1be-41bc-8466-a39af909101d",
+      "data": [
+        {
+          "text": "lovely",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49d5217a-bf21-484b-aac0-10a65d9b80ca",
+      "data": [
+        {
+          "text": "I want to watch "
+        },
+        {
+          "text": "assassin creed",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1cefa86-c328-4b95-bf1d-7be5bff317cb",
+      "data": [
+        {
+          "text": "family",
+          "alias": "movie-genre",
+          "meta": "@movie-genre",
+          "userDefined": true
+        },
+        {
+          "text": " video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aae080da-6433-414e-bccd-aa39e2317ad1",
+      "data": [
+        {
+          "text": "Dracula official",
+          "alias": "trailer",
+          "meta": "@trailer",
+          "userDefined": true
+        },
+        {
+          "text": " video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "fcba9a75-db52-4240-959d-466b9978497d",
+      "data": [
+        {
+          "text": "show "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "Adele",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        },
+        {
+          "text": "'s "
+        },
+        {
+          "text": "Hello",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2e3a9a17-0d27-4e15-8e3e-72799c05e4bd",
+      "data": [
+        {
+          "text": "play",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "music",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Love the Way you Lie",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c296cd0-3515-43ad-8f97-01b7f3399cce",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "Ricky Martin",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        },
+        {
+          "text": " video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "531628bc-01f2-4135-9b9e-bc8aeb13ed97",
+      "data": [
+        {
+          "text": "I want to watch a "
+        },
+        {
+          "text": "Tarantino",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        },
+        {
+          "text": " movie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4bf51614-7b30-40ad-900c-4b0371ed9a21",
+      "data": [
+        {
+          "text": "do you have some "
+        },
+        {
+          "text": "Michael Jackson",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        },
+        {
+          "text": " videos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d0ea8b34-fcae-4094-8d44-4d650a6766e9",
+      "data": [
+        {
+          "text": "show me "
+        },
+        {
+          "text": "Nirvana",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        },
+        {
+          "text": " videos on "
+        },
+        {
+          "text": "Youtube",
+          "alias": "service",
+          "meta": "@video-service",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "39e5bc18-aba0-4d93-9f6a-f563bad229eb",
+      "data": [
+        {
+          "text": "show "
+        },
+        {
+          "text": "trailer",
+          "alias": "trailer",
+          "meta": "@trailer",
+          "userDefined": true
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Ex-Machina",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0cdefb7a-d255-4e10-b3e1-1827565af1d0",
+      "data": [
+        {
+          "text": "play",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "trailer",
+          "alias": "trailer",
+          "meta": "@trailer",
+          "userDefined": true
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "The Angry Birds Movie",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97601f29-0117-4d73-b7d7-d9492673df9d",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "pop",
+          "alias": "music-genre",
+          "meta": "@sys.music-genre",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d6117a35-dea9-40e3-a054-9634b9d5ec30",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " you play a movie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c22c78cb-fa21-4cc2-97bc-f7a68a387145",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "horror",
+          "alias": "movie-genre",
+          "meta": "@movie-genre",
+          "userDefined": true
+        },
+        {
+          "text": " movie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2a0a9f15-2db1-4bd6-aa18-cb83f6b2fb52",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "Harry Potter",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "trailer",
+          "alias": "trailer",
+          "meta": "@trailer",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "45b23cde-7b27-4987-993f-5d2571918656",
+      "data": [
+        {
+          "text": "play videos "
+        },
+        {
+          "text": "on",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Youtube",
+          "alias": "service",
+          "meta": "@video-service",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "78e03cf6-deeb-450e-9070-ae67f2802e87",
+      "data": [
+        {
+          "text": "I want to watch a film directed by "
+        },
+        {
+          "text": "Tarantino",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "430bed94-ec93-4f10-9411-28b4b088b784",
+      "data": [
+        {
+          "text": "can you play "
+        },
+        {
+          "text": "Eminem",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "rap",
+          "alias": "music-genre",
+          "meta": "@sys.music-genre",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " for me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "91f77156-e459-4d54-9a2b-4bf7f55db997",
+      "data": [
+        {
+          "text": "Hindi",
+          "alias": "language",
+          "meta": "@sys.language",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "movies",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e67227df-e61f-4c2b-be5a-726a7c6c169a",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "videos",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " from year "
+        },
+        {
+          "text": "2014",
+          "alias": "year",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a5d7f06-2c65-4168-9625-6b35cb7349a2",
+      "data": [
+        {
+          "text": "I want to watch "
+        },
+        {
+          "text": "Paul McCartney",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        },
+        {
+          "text": "'s "
+        },
+        {
+          "text": "videos",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5938343b-a8c8-490c-ac0d-04a7ce77bea3",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "videos",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " about "
+        },
+        {
+          "text": "love",
+          "alias": "movie-genre",
+          "meta": "@movie-genre",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2958e9c5-543e-43cd-a53b-130ede25d7da",
+      "data": [
+        {
+          "text": "Madonna",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        },
+        {
+          "text": " video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f37d0729-889d-49da-84c0-2fbc667a2637",
+      "data": [
+        {
+          "text": "open",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "make-up",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "video on",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Youtube",
+          "alias": "service",
+          "meta": "@video-service",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "81eca1a3-473b-4d6f-8b1c-8780b6c0bb7f",
+      "data": [
+        {
+          "text": "open",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Justin Bieber",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ed7285f-fab0-4b16-908e-3cf71fe50c3d",
+      "data": [
+        {
+          "text": "play some "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "37ae37b2-ef7c-4b9b-bbdb-11c04807d324",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "sports",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "25283edc-773d-4f9a-b335-aa91fbd463e5",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "Terminator",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        },
+        {
+          "text": " movie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7e11a090-4809-419e-81e0-bbc0a8d4d5cc",
+      "data": [
+        {
+          "text": "play a movie starring "
+        },
+        {
+          "text": "Bruce Willis",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a7240ae9-ee14-416b-8497-0329b95e8b43",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "Die Hard",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        },
+        {
+          "text": " with "
+        },
+        {
+          "text": "Bruce Willis",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "401fb7c5-8c38-4072-84e3-83f6c3949a05",
+      "data": [
+        {
+          "text": "I want to watch "
+        },
+        {
+          "text": "Harry Potter",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1efc0bd2-0ac7-42fe-b183-e89b036194e8",
+      "data": [
+        {
+          "text": "watch "
+        },
+        {
+          "text": "District 9",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": false
+        },
+        {
+          "text": " movie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "37d52359-509d-4de1-8a00-a3831338a576",
+      "data": [
+        {
+          "text": "let's watch "
+        },
+        {
+          "text": "Minions",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": false
+        },
+        {
+          "text": " movie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8a0d51b4-fc1b-4f03-803b-ec7576fbd090",
+      "data": [
+        {
+          "text": "let's watch "
+        },
+        {
+          "text": "Twilight",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7861de1b-9b9f-43a6-a4e3-96ba7ed5c943",
+      "data": [
+        {
+          "text": "watch "
+        },
+        {
+          "text": "Harry Potter",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1410bf12-4435-4551-b53a-80c9898bf1b2",
+      "data": [
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e07d9582-4d01-43fe-a913-7ece3de1a4a7",
+      "data": [
+        {
+          "text": "open",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb3d7ee8-3bcb-4612-a971-3ff79507327d",
+      "data": [
+        {
+          "text": "videos "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Lady Gaga",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "87d907a6-b07e-4629-8266-b4cbbcded49a",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you show me videos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c9d694f2-a941-4889-958b-36fb245d9d41",
+      "data": [
+        {
+          "text": "show me "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a50247f-885a-4d0a-b87d-ce0057405cb0",
+      "data": [
+        {
+          "text": "play me a "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7738ecb8-833e-4b3f-9b63-0735ba734f4c",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you show me a "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a03db23f-fa13-4759-bb65-3c72514081ad",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you show me some videos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c51a4f43-206b-42fd-a817-469d528e402b",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "Michael Jackson",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        },
+        {
+          "text": " video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c9d105b1-8d02-4a16-8396-25282c488b03",
+      "data": [
+        {
+          "text": "music",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " videos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "827dee7b-2251-4b45-8b2a-a47d2684feb4",
+      "data": [
+        {
+          "text": "play some videos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "53f6a5a6-6e75-4c34-8918-ee3bbb768f3a",
+      "data": [
+        {
+          "text": "I want to watch a "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f878ea8e-0552-484f-95b7-cf7e3f7fe9f6",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you play "
+        },
+        {
+          "text": "a video",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "18e64b81-8a48-44ac-af1e-069d5c15ef1f",
+      "data": [
+        {
+          "text": "baby",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " videos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "38be932c-0b03-4e02-bc3f-ee4cd8cd5468",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " I watch a "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a5f80263-372b-4609-8751-8b24c84bb0b8",
+      "data": [
+        {
+          "text": "show me",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "funny cat",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " videos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "987daf9e-68e0-4329-a82e-a0d99e11b06f",
+      "data": [
+        {
+          "text": "show some "
+        },
+        {
+          "text": "romantic",
+          "alias": "movie-genre",
+          "meta": "@movie-genre",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2aad5806-6906-4d2a-93fb-bfc1075e2d24",
+      "data": [
+        {
+          "text": "football",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": false
+        },
+        {
+          "text": " videos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "035dc821-53cc-4dc8-9925-cf6e3e22ac53",
+      "data": [
+        {
+          "text": "show me videos "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Katy Perry",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d5a3868b-7f5f-4469-8ed1-64377a86babd",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "Spider Man",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        },
+        {
+          "text": " videos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "316096b9-c8eb-4901-b156-204af9506328",
+      "data": [
+        {
+          "text": "videos "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "puppies",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b9e049ea-e0fc-47cf-8771-c4ce2c627a21",
+      "data": [
+        {
+          "text": "watch "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4b5d18c1-73d9-47a0-8729-60e26208098b",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " songs"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d01d0de9-8a63-49b8-a130-8bf95dfe7321",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you show me "
+        },
+        {
+          "text": "Minecraft",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " videos please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1d78eba8-b51c-4b26-afb7-959ec6a4319b",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you show me videos "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Peppa",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6575fd09-1d22-452e-ac12-3450bc620e97",
+      "data": [
+        {
+          "text": "crazy",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": false
+        },
+        {
+          "text": " videos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71c14bea-04ca-48e6-bffc-a77b619e271e",
+      "data": [
+        {
+          "text": "Youtube",
+          "alias": "service",
+          "meta": "@video-service",
+          "userDefined": true
+        },
+        {
+          "text": " video "
+        },
+        {
+          "text": "Justin Timberlake",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a1aa08ee-2c45-460c-9ddf-1745d63caaa5",
+      "data": [
+        {
+          "text": "can you play a "
+        },
+        {
+          "text": "Youtube",
+          "alias": "service",
+          "meta": "@video-service",
+          "userDefined": true
+        },
+        {
+          "text": " video for me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56509830-b1c8-4d42-8b4f-b23ccab9871c",
+      "data": [
+        {
+          "text": "watch "
+        },
+        {
+          "text": "Oscars",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1423d11e-068c-4784-ae4b-fe5d8c9ea1be",
+      "data": [
+        {
+          "text": "videos of "
+        },
+        {
+          "text": "baby unicorn",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5a18a366-5a0d-4bfb-9027-7436e5d1dae2",
+      "data": [
+        {
+          "text": "videos from "
+        },
+        {
+          "text": "inside gaming",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6541f509-e392-44a9-aa79-82569a9ed9e9",
+      "data": [
+        {
+          "text": "video player"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fa451428-a535-42cd-9961-dbde922522ff",
+      "data": [
+        {
+          "text": "video play"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "066467ed-94d7-4bd8-a24e-addaeb15bbf8",
+      "data": [
+        {
+          "text": "show me some videos of "
+        },
+        {
+          "text": "kittens",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1b7643b-3484-40c5-93e6-8a8ac3de5adb",
+      "data": [
+        {
+          "text": "show me a video of "
+        },
+        {
+          "text": "penguins",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ed2ba45b-ad8a-4991-80e4-2f0fc03d4959",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "Youtube",
+          "alias": "service",
+          "meta": "@video-service",
+          "userDefined": true
+        },
+        {
+          "text": " videos "
+        },
+        {
+          "text": "Charlie bit my finger",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "705ab38b-d14d-4503-89e5-9827556e0917",
+      "data": [
+        {
+          "text": "play videos about "
+        },
+        {
+          "text": "snowboarding",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "Youtube",
+          "alias": "service",
+          "meta": "@video-service",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "4f0b8fe6-1ca5-456d-beac-794fe9c81979",
+      "data": [
+        {
+          "text": "show me "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "king of Scotland 1292",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c8a5e2fb-fc4a-4202-8f88-e4b61e2d2eb8",
+      "data": [
+        {
+          "text": "show me videos about "
+        },
+        {
+          "text": "cars",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36a10040-db9e-49b3-add3-5446347ec594",
+      "data": [
+        {
+          "text": "show me videos "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "what does the fox say",
+          "alias": "video",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3cf9ab0d-da25-429c-bc77-fa3f168ba849",
+      "data": [
+        {
+          "text": "I want to play the "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c5877a67-97ee-403a-98e4-b2adbae095d5",
+      "data": [
+        {
+          "text": "I want to watch some videos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b85ebaa-68ca-412f-a420-a35359560dd3",
+      "data": [
+        {
+          "text": "I would like to watch a "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "06b91706-580b-41c8-a87b-5d05c48cd72e",
+      "data": [
+        {
+          "text": "Scarlett Johansson",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": false
+        },
+        {
+          "text": " videos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "923a3d4b-8e2b-4740-87c8-fba5b9624504",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you play some videos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a6440a09-070e-401e-9174-2bb8c4e35574",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you show me the "
+        },
+        {
+          "text": "video",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f4973c7c-53c7-4795-ae87-34fe167cb892",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you show me videos "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Taylor Swift",
+          "alias": "person",
+          "meta": "@person",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "966c44f6-d05a-4782-8ac2-e61f2acf17eb",
+  "name": "video.play",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "video.play",
+      "affectedContexts": [
+        {
+          "name": "play-video",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "video-player-control",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.any",
+          "name": "video",
+          "value": "$video"
+        },
+        {
+          "dataType": "@movie",
+          "name": "movie",
+          "value": "$movie"
+        },
+        {
+          "dataType": "@person",
+          "name": "person",
+          "value": "$person",
+          "isList": true
+        },
+        {
+          "dataType": "@song",
+          "name": "song",
+          "value": "$song"
+        },
+        {
+          "dataType": "@movie-genre",
+          "name": "movie-genre",
+          "value": "$movie-genre"
+        },
+        {
+          "dataType": "@sys.music-genre",
+          "name": "music-genre",
+          "value": "$music-genre"
+        },
+        {
+          "dataType": "@video-service",
+          "name": "service",
+          "value": "$service"
+        },
+        {
+          "dataType": "@trailer",
+          "name": "trailer",
+          "value": "$trailer"
+        },
+        {
+          "dataType": "@sys.number",
+          "name": "year",
+          "value": "$year"
+        },
+        {
+          "dataType": "@sys.language",
+          "name": "language",
+          "value": "$language"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

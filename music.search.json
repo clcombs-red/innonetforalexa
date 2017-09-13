@@ -1,0 +1,1906 @@
+{
+  "templates": [
+    "find me a song",
+    "find @sys.language:language songs by @sys.music-artist:artist ",
+    "find music",
+    "I'd like to search for a song",
+    "search up @song:song by @sys.music-artist:artist feat @sys.music-artist:artist ",
+    "find the song @song:song by @sys.music-artist:artist ",
+    "could you search for @sys.music-genre:genre music",
+    "I'd like to find @sys.music-artist:artist 's album @music-album:album ",
+    "find the @music-sort:sort songs of @sys.number:start-year ",
+    "search up the song @song:song ",
+    "can you look up for a song name @song:song by @sys.music-artist:artist ",
+    "find @song:song song",
+    "find some music",
+    "can you find the song",
+    "find @playlist:playlist playlist",
+    "look up another song",
+    "find my music",
+    "find me the song @song:song ",
+    "search for @song:song by @sys.music-artist:artist ",
+    "search a song on @music-service:service ",
+    "search for me a song",
+    "find some @music-sort:sort music for me",
+    "look up the song @song:song ",
+    "look for @sys.music-artist:artist music",
+    "find @sys.music-artist:artist on @music-service:service ",
+    "search for cool @sys.music-genre:genre music",
+    "find how about some music",
+    "can you find @song:song from @sys.music-artist:artist ",
+    "find me a song for a @sys.music-genre:genre mood",
+    "search a song @song:song ",
+    "find me the song",
+    "find me @music-sort:sort hits by @sys.music-artist:artist ",
+    "search @sys.language:language music",
+    "find @song:song by @sys.music-artist:artist ",
+    "find a @playlist:playlist playlist",
+    "look up the song @song:song by @sys.music-artist:artist ",
+    "find @song:song by @sys.music-artist:artist feat @sys.music-artist:artist ",
+    "@music-sort:sort songs of @sys.number:start-year ",
+    "search what @sys.music-artist:artist wrote between @sys.number:start-year and @sys.number:end-year ",
+    "could you search in @music-service:service a song of @sys.music-artist:artist ",
+    "find music on @music-service:service ",
+    "find @music-album:album album",
+    "find the song @song:song ",
+    "can you search a song by @sys.music-artist:artist on @music-service:service ",
+    "search @music-sort:sort  @sys.number:amount songs from @sys.number:start-year ",
+    "search @sys.music-artist:artist  @song:song feat @sys.music-artist:artist ",
+    "can you find me the song called @song:song ",
+    "can you search for the song",
+    "can you find me a song",
+    "can you search some good mood song in @music-service:service ",
+    "search for @sys.language:language songs",
+    "search @sys.music-artist:artist music",
+    "find a song",
+    "search @sys.music-artist:artist 's @song:song ",
+    "find @song:song on @music-service:service ",
+    "find me a song with @sys.music-artist:artist ",
+    "search for the song @song:song ",
+    "search for a playlist @playlist:playlist ",
+    "find @sys.music-artist:artist song",
+    "search for the song @song:song by @sys.music-artist:artist ",
+    "search me a @sys.music-artist:artist song",
+    "find some song in @sys.language:language ",
+    "find the @music-sort:sort songs",
+    "can you find @sys.music-artist:artist for me",
+    "find me for some good music on @sys.language:language ",
+    "help me find a song",
+    "find some tracks for me",
+    "search for @song:song feat @sys.music-artist:artist by @sys.music-artist:artist song on @playlist:playlist ",
+    "find a song by @sys.music-artist:artist ",
+    "can you find me some @sys.music-genre:genre music",
+    "find @sys.music-genre:genre music",
+    "could you find the music",
+    "look up a song for me",
+    "find @sys.music-artist:artist ",
+    "can you search for me a song",
+    "search for @music-sort:sort songs by @sys.music-artist:artist ",
+    "find @song:song "
+  ],
+  "userSays": [
+    {
+      "id": "ff3e5fb5-e26c-4ab4-bc80-67f17c986c9d",
+      "data": [
+        {
+          "text": "find me a song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "29a41eca-d286-476a-b067-965286c65748",
+      "data": [
+        {
+          "text": "find "
+        },
+        {
+          "text": "French",
+          "alias": "language",
+          "meta": "@sys.language",
+          "userDefined": true
+        },
+        {
+          "text": " songs by "
+        },
+        {
+          "text": "Joe Dassin",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c68e162-e023-4e62-88da-9ff8d115f044",
+      "data": [
+        {
+          "text": "find music"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2190be8d-f12f-4b35-9712-3b33b746b748",
+      "data": [
+        {
+          "text": "I'd like to search for a song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "212fed33-9c12-412e-ad15-ed2046fa5496",
+      "data": [
+        {
+          "text": "search up "
+        },
+        {
+          "text": "Monster",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "Rihanna",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": " feat "
+        },
+        {
+          "text": "Eminem",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1896c766-cb1c-4be0-a640-340cbba62479",
+      "data": [
+        {
+          "text": "find the song "
+        },
+        {
+          "text": "Bailando",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "Enrique Iglesias",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "07bcbff5-682d-4332-9a09-47715159e346",
+      "data": [
+        {
+          "text": "could you search for "
+        },
+        {
+          "text": "jazz",
+          "alias": "genre",
+          "meta": "@sys.music-genre",
+          "userDefined": true
+        },
+        {
+          "text": " music"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "690cbf04-87dc-4acc-b64c-3354e205a7ac",
+      "data": [
+        {
+          "text": "I'd like to find "
+        },
+        {
+          "text": "Madonna",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": "'s album "
+        },
+        {
+          "text": "Lucky Star",
+          "alias": "album",
+          "meta": "@music-album",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ccb30298-c612-4471-b51f-2c3d08cf5340",
+      "data": [
+        {
+          "text": "find the "
+        },
+        {
+          "text": "best",
+          "alias": "sort",
+          "meta": "@music-sort",
+          "userDefined": true
+        },
+        {
+          "text": " songs of "
+        },
+        {
+          "text": "2016",
+          "alias": "start-year",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5ec65d83-6431-47d8-8ee4-dc933036ea6f",
+      "data": [
+        {
+          "text": "search up the song "
+        },
+        {
+          "text": "I need to feel loved",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5634b4eb-7c6d-495e-bc5a-9c4f1199393a",
+      "data": [
+        {
+          "text": "can you look up for a song name "
+        },
+        {
+          "text": "Set fire to the rain",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "Adele",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b2dafab5-d4f4-4229-b67e-45849cc8c1eb",
+      "data": [
+        {
+          "text": "find "
+        },
+        {
+          "text": "Blackbird",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        },
+        {
+          "text": " song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e4b5ea3c-3a45-4c3f-931b-6b55c02fda0f",
+      "data": [
+        {
+          "text": "find some "
+        },
+        {
+          "text": "music",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fef3a915-cefe-4013-925c-9876b54e9cd9",
+      "data": [
+        {
+          "text": "can you find the song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b8db4d5b-ae14-4774-9eab-2b8456943faf",
+      "data": [
+        {
+          "text": "find "
+        },
+        {
+          "text": "my faves",
+          "alias": "playlist",
+          "meta": "@playlist",
+          "userDefined": true
+        },
+        {
+          "text": " playlist"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9e8aacad-2cf6-4662-8571-08790d24043e",
+      "data": [
+        {
+          "text": "look up another song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "57b51f88-4e9f-402f-ab46-5cee71db23d7",
+      "data": [
+        {
+          "text": "find my "
+        },
+        {
+          "text": "music",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7df63863-38f7-49d9-a4f6-f23933515b16",
+      "data": [
+        {
+          "text": "find me the song "
+        },
+        {
+          "text": "Greatness Of Our God",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4b5b4a70-0a32-4ea5-b790-42118f1c4c11",
+      "data": [
+        {
+          "text": "search",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Ignition",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "R Kelly",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d7a6103f-34da-4d1b-b273-96ec76e5d763",
+      "data": [
+        {
+          "text": "search",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "song",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "YouTube",
+          "alias": "service",
+          "meta": "@music-service",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3f5cb09f-eeb2-457d-aaf9-a1d1d62a29dd",
+      "data": [
+        {
+          "text": "search for me a song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "259d0204-0e3c-4757-8ccd-afeed8ebaf24",
+      "data": [
+        {
+          "text": "find some "
+        },
+        {
+          "text": "good",
+          "alias": "sort",
+          "meta": "@music-sort",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "music",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " for me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3fe92bba-97a8-4251-9afb-bb017c2ed279",
+      "data": [
+        {
+          "text": "look up the "
+        },
+        {
+          "text": "song",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Diamonds",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "948446a5-cde2-4e0d-9145-d49a89c44ac0",
+      "data": [
+        {
+          "text": "look for "
+        },
+        {
+          "text": "The Beatles",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "music",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0f0d5921-2575-4621-9774-cd13faa10f4e",
+      "data": [
+        {
+          "text": "find "
+        },
+        {
+          "text": "Depeche Mode",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Spotify",
+          "alias": "service",
+          "meta": "@music-service",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3d596105-c76d-42f8-b371-918725be1d53",
+      "data": [
+        {
+          "text": "search for cool "
+        },
+        {
+          "text": "rap",
+          "alias": "genre",
+          "meta": "@sys.music-genre",
+          "userDefined": true
+        },
+        {
+          "text": " music"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b2a07363-39bf-4e6e-9bff-565b23382029",
+      "data": [
+        {
+          "text": "find how about some music"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "156e3e21-700c-48df-ad52-655db971c7a9",
+      "data": [
+        {
+          "text": "can you find "
+        },
+        {
+          "text": "Champagne Supernova",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Oasis",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4794e088-b9e2-4fb0-8815-0c1402463331",
+      "data": [
+        {
+          "text": "find me a song for a "
+        },
+        {
+          "text": "depressing",
+          "alias": "genre",
+          "meta": "@sys.music-genre",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "mood",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ae06d77-75eb-439e-848d-e85c63177994",
+      "data": [
+        {
+          "text": "search a song "
+        },
+        {
+          "text": "Thrift shop",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "923ee14a-6c08-4785-9213-2254019ada08",
+      "data": [
+        {
+          "text": "find me the song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "045ddc8a-d74a-47b4-9c90-b7f66ad185eb",
+      "data": [
+        {
+          "text": "find me "
+        },
+        {
+          "text": "greatest",
+          "alias": "sort",
+          "meta": "@music-sort",
+          "userDefined": true
+        },
+        {
+          "text": " hits by "
+        },
+        {
+          "text": "Metallica",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "15df1d64-344c-4f9a-ac52-1609d3f9f406",
+      "data": [
+        {
+          "text": "search",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Japanese",
+          "alias": "language",
+          "meta": "@sys.language",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "music",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "105a4e94-1de7-4fcc-831a-519c5ad8681f",
+      "data": [
+        {
+          "text": "find "
+        },
+        {
+          "text": "Walking with a Ghost",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "Tegan and Sara",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ad51fa3-e341-4148-8e3b-29eb138d1831",
+      "data": [
+        {
+          "text": "find a "
+        },
+        {
+          "text": "relaxing",
+          "alias": "playlist",
+          "meta": "@playlist",
+          "userDefined": true
+        },
+        {
+          "text": " playlist"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e81e5d71-ffe3-47d0-9cb4-0a2dae774822",
+      "data": [
+        {
+          "text": "look up the song "
+        },
+        {
+          "text": "Thank you",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "Dido",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cdd29f66-9a4e-43fb-956d-22b175281d79",
+      "data": [
+        {
+          "text": "find "
+        },
+        {
+          "text": "Dangerous",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "Sam Martin",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": " feat "
+        },
+        {
+          "text": "David Guetta",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a1e534d3-c238-40b4-8a27-f91e71a824eb",
+      "data": [
+        {
+          "text": "top",
+          "alias": "sort",
+          "meta": "@music-sort",
+          "userDefined": true
+        },
+        {
+          "text": " songs "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "2016",
+          "alias": "start-year",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6b2d184d-d420-415c-acc9-d3c41f9c042e",
+      "data": [
+        {
+          "text": "search what "
+        },
+        {
+          "text": "Prince",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": " wrote between "
+        },
+        {
+          "text": "1980",
+          "alias": "start-year",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "1999",
+          "alias": "end-year",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6f6bcafe-9b09-418c-9c0f-c5cd783cd871",
+      "data": [
+        {
+          "text": "could",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you "
+        },
+        {
+          "text": "search",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "in",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "YouTube",
+          "alias": "service",
+          "meta": "@music-service",
+          "userDefined": false
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "song",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Queen",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ead575c-43ec-4e74-ac7c-2e28e4bb332b",
+      "data": [
+        {
+          "text": "find music on "
+        },
+        {
+          "text": "Spotify",
+          "alias": "service",
+          "meta": "@music-service",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eec27022-956b-4e9f-9a93-eb4acc7cdd15",
+      "data": [
+        {
+          "text": "find "
+        },
+        {
+          "text": "White",
+          "alias": "album",
+          "meta": "@music-album",
+          "userDefined": true
+        },
+        {
+          "text": " album"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "969ad894-84fc-4551-a9b0-43a2dc4cde90",
+      "data": [
+        {
+          "text": "find the song "
+        },
+        {
+          "text": "Lemonade",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8c34069-4966-4cfb-9ea5-c6eb78f1f02b",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you "
+        },
+        {
+          "text": "search",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "song",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "Taylor Swift",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "YouTube",
+          "alias": "service",
+          "meta": "@music-service",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd57e000-05bd-40d9-850e-24b1086698f8",
+      "data": [
+        {
+          "text": "search",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "top",
+          "alias": "sort",
+          "meta": "@music-sort",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "10",
+          "alias": "amount",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " songs from "
+        },
+        {
+          "text": "2014",
+          "alias": "start-year",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47124b58-f8ce-4b90-ab0d-303f1d0e4926",
+      "data": [
+        {
+          "text": "search",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Britney Spears",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Me Against the Music",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        },
+        {
+          "text": " feat "
+        },
+        {
+          "text": "Madonna",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc5cf9b7-1e19-494a-9664-4aad8bec1738",
+      "data": [
+        {
+          "text": "can you find me the song called "
+        },
+        {
+          "text": "Maria",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97b98a5a-6d04-4d00-9a44-7ca13f70db2d",
+      "data": [
+        {
+          "text": "can you search for the song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8029d62-4244-463a-8cb7-1bf8916cbefa",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "you",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " find me a song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3ffa512c-b391-4892-8309-5abe00bb1e39",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you "
+        },
+        {
+          "text": "search",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " some "
+        },
+        {
+          "text": "good mood",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "song",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "in",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "YouTube",
+          "alias": "service",
+          "meta": "@music-service",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4cb0f4c6-21d8-467a-82d5-02f4786c858a",
+      "data": [
+        {
+          "text": "search for "
+        },
+        {
+          "text": "Bengali",
+          "alias": "language",
+          "meta": "@sys.language",
+          "userDefined": true
+        },
+        {
+          "text": " songs"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d12281dd-8d57-4fe8-9458-7acc08c8c210",
+      "data": [
+        {
+          "text": "search "
+        },
+        {
+          "text": "Britney Spears",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "music",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0f73d92d-b828-4a82-bab4-f360b27bcf80",
+      "data": [
+        {
+          "text": "find a song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b11bb1f0-31e4-41a9-97a2-953b21269efd",
+      "data": [
+        {
+          "text": "search",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Adele",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": "'s "
+        },
+        {
+          "text": "Hello",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "238e2acd-9b06-4fa8-ab33-9b2717a6209a",
+      "data": [
+        {
+          "text": "find "
+        },
+        {
+          "text": "Diamonds",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "Spotify",
+          "alias": "service",
+          "meta": "@music-service",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ad57640d-2252-4441-af15-8f1eadc3da4d",
+      "data": [
+        {
+          "text": "find me a song with "
+        },
+        {
+          "text": "Lil Wayne",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0cac2acd-963a-4190-aabc-81f7db8aa007",
+      "data": [
+        {
+          "text": "search for the song "
+        },
+        {
+          "text": "Bass pedal",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47f62d8e-cc23-4f9e-afa6-1df1c6232ac0",
+      "data": [
+        {
+          "text": "search for a playlist "
+        },
+        {
+          "text": "summer",
+          "alias": "playlist",
+          "meta": "@playlist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e26219f3-88f0-46b8-8b71-cb179ab2bade",
+      "data": [
+        {
+          "text": "find "
+        },
+        {
+          "text": "Lorde",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": " song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "11f8bc0e-1a18-4e1e-b6e2-ecb20f770f5f",
+      "data": [
+        {
+          "text": "search for the song "
+        },
+        {
+          "text": "Angel",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "Shaggy",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be713d5c-dece-4315-a5a4-dd6619d1170a",
+      "data": [
+        {
+          "text": "search me a "
+        },
+        {
+          "text": "Nicki Minaj",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": " song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8a381da5-5016-46df-9dbf-91156d1b7a44",
+      "data": [
+        {
+          "text": "find some song in "
+        },
+        {
+          "text": "Hindi",
+          "alias": "language",
+          "meta": "@sys.language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "96b62377-f0fa-4019-a002-3b828ff2d31a",
+      "data": [
+        {
+          "text": "find the "
+        },
+        {
+          "text": "greatest",
+          "alias": "sort",
+          "meta": "@music-sort",
+          "userDefined": true
+        },
+        {
+          "text": " songs"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cbef25a1-4f28-47f2-a628-db8e188f842b",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "you find",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Ariana Grande",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "me",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a9e49279-a5b5-4fc1-8868-0b8d0601a85a",
+      "data": [
+        {
+          "text": "find me for some good music on "
+        },
+        {
+          "text": "Hindi",
+          "alias": "language",
+          "meta": "@sys.language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4c6e8a6f-8a99-478b-bd3b-2a9280aaf9a0",
+      "data": [
+        {
+          "text": "help me find a song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "82bd5d63-2227-4d1f-b3a2-fc8d7eebe8d1",
+      "data": [
+        {
+          "text": "find some tracks for "
+        },
+        {
+          "text": "me",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fd3f178a-505a-408d-bd60-6c8410882fd6",
+      "data": [
+        {
+          "text": "search",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Dangerous",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        },
+        {
+          "text": " feat "
+        },
+        {
+          "text": "Sam Martin",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "David Guetta",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": " song "
+        },
+        {
+          "text": "on",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Spotify",
+          "alias": "playlist",
+          "meta": "@playlist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e3a9a4a5-882e-47f0-a393-fd338819fffa",
+      "data": [
+        {
+          "text": "find a song by "
+        },
+        {
+          "text": "Madonna",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "432faf7e-97f6-4fb0-8b5d-ed93faa93d39",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you find "
+        },
+        {
+          "text": "me",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " some "
+        },
+        {
+          "text": "piano",
+          "alias": "genre",
+          "meta": "@sys.music-genre",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "music",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3890d2a9-3d4c-4111-b59d-f9552d24c4c5",
+      "data": [
+        {
+          "text": "find "
+        },
+        {
+          "text": "rock",
+          "alias": "genre",
+          "meta": "@sys.music-genre",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "music",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c01a033d-8e16-4955-969e-d4770e225b22",
+      "data": [
+        {
+          "text": "could you find the music"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4adad4e2-a8aa-4a45-95c9-a51c03dce941",
+      "data": [
+        {
+          "text": "look up a song for me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c97abc02-b8ae-4696-833b-29d51e75fb25",
+      "data": [
+        {
+          "text": "find "
+        },
+        {
+          "text": "Adele",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d44f8060-082c-4df4-ab94-85482b809345",
+      "data": [
+        {
+          "text": "can you search for me a song"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "86150d04-3c41-4831-95f4-9ae2db98836a",
+      "data": [
+        {
+          "text": "search for "
+        },
+        {
+          "text": "newest",
+          "alias": "sort",
+          "meta": "@music-sort",
+          "userDefined": true
+        },
+        {
+          "text": " songs by "
+        },
+        {
+          "text": "Maroon 5",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d8bc446d-c140-4a4c-bd66-09734877a6b5",
+      "data": [
+        {
+          "text": "find "
+        },
+        {
+          "text": "Ghost Town",
+          "alias": "song",
+          "meta": "@song",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5004097c-939b-4937-a7c7-e516055470a3",
+  "name": "music.search",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "music.search",
+      "affectedContexts": [
+        {
+          "name": "search-music",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@song",
+          "name": "song",
+          "value": "$song"
+        },
+        {
+          "dataType": "@sys.music-artist",
+          "name": "artist",
+          "value": "$artist",
+          "isList": true
+        },
+        {
+          "dataType": "@music-album",
+          "name": "album",
+          "value": "$album"
+        },
+        {
+          "dataType": "@sys.music-genre",
+          "name": "genre",
+          "value": "$genre"
+        },
+        {
+          "dataType": "@music-sort",
+          "name": "sort",
+          "value": "$sort"
+        },
+        {
+          "dataType": "@playlist",
+          "name": "playlist",
+          "value": "$playlist"
+        },
+        {
+          "dataType": "@music-service",
+          "name": "service",
+          "value": "$service"
+        },
+        {
+          "dataType": "@sys.language",
+          "name": "language",
+          "value": "$language"
+        },
+        {
+          "dataType": "@sys.number",
+          "name": "start-year",
+          "value": "$start-year"
+        },
+        {
+          "dataType": "@sys.number",
+          "name": "end-year",
+          "value": "$end-year"
+        },
+        {
+          "dataType": "@sys.number",
+          "name": "amount",
+          "value": "$amount"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

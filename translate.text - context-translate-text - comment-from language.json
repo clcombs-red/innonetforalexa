@@ -1,0 +1,143 @@
+{
+  "templates": [
+    "@sys.any:text from @sys.language:lang-from now",
+    "how about @sys.any:text from @sys.language:lang-from ",
+    "from @sys.language:lang-from ",
+    "now from @sys.language:lang-from "
+  ],
+  "userSays": [
+    {
+      "id": "5fd70506-adbb-4788-9deb-65147ae826b6",
+      "data": [
+        {
+          "text": "salut",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "French",
+          "alias": "lang-from",
+          "meta": "@sys.language",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "now",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2fbe6752-3545-4172-b298-b1fa20024b9c",
+      "data": [
+        {
+          "text": "how about "
+        },
+        {
+          "text": "hallo",
+          "alias": "text",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "German",
+          "alias": "lang-from",
+          "meta": "@sys.language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8351245f-ede4-4e9d-bd1b-514511d7c2e7",
+      "data": [
+        {
+          "text": "from "
+        },
+        {
+          "text": "English",
+          "alias": "lang-from",
+          "meta": "@sys.language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0cbc91b3-4d9d-423f-94bf-1b729cd85d6e",
+      "data": [
+        {
+          "text": "now from "
+        },
+        {
+          "text": "Spanish",
+          "alias": "lang-from",
+          "meta": "@sys.language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f9361763-a93c-4c6c-9929-4227c0b7fd7a",
+  "name": "translate.text - context:translate-text - comment:from language",
+  "auto": true,
+  "contexts": [
+    "translate-text"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "translate.text",
+      "affectedContexts": [
+        {
+          "name": "translate-text",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.language",
+          "name": "lang-from",
+          "value": "$lang-from",
+          "prompts": []
+        },
+        {
+          "dataType": "@sys.any",
+          "name": "text",
+          "value": "$text",
+          "prompts": [],
+          "defaultValue": "#translate-text.text",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
